@@ -1,0 +1,67 @@
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    body {
+      background: #fefefe;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .register-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      width: 320px;
+    }
+    .register-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .register-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .register-box button {
+      width: 100%;
+      padding: 10px;
+      background: #2ecc71;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .register-box button:hover {
+      background: #27ae60;
+    }
+    /* Footer */
+    .footer {
+      text-align: center;
+      color: #888;
+      font-size: 0.875rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="register-box">
+    <h2>Register</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <input type="password" placeholder="Confirm Password" required />
+      <button type="submit">Register</button>
+    </form>
+    <div class="footer">
+      <p>&copy; Developed By ~ Sulekha Mondal</p>
+    </div>
+  </div>
+</body>
+</html>
